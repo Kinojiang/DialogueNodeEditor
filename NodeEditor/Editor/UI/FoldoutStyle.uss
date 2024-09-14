@@ -1,0 +1,7 @@
+#mainFoldout{
+    background-color: rgba(64, 64, 64, 1);
+}
+
+#unity-content {
+    margin-left:0;
+}

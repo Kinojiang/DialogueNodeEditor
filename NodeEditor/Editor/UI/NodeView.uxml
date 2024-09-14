@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/NodeEditor/Editor/UI/NodeView.uss?fileID=7433441132597879392&amp;guid=2a8ade0062f64e34986fe704159f5b07&amp;type=3#NodeView" />
+    <ui:VisualElement name="Root">
+        <ui:VisualElement name="input" />
+        <ui:VisualElement name="divder" />
+        <ui:VisualElement name="Title">
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="title-label" />
+        </ui:VisualElement>
+        <ui:VisualElement name="divder" />
+        <ui:VisualElement name="output" />
+    </ui:VisualElement>
+    <ui:VisualElement name="NodeState" picking-mode="Ignore" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; opacity: 1;" />
+</ui:UXML>

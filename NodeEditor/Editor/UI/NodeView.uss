@@ -1,0 +1,46 @@
+.NodeView{
+    border-radius: 5;
+    background-color: rgba(196, 196, 196, 1);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+
+
+:selected >#selection-border{
+    border-radius: 5;
+    border-color: rgba(68, 192, 255, 1);
+    border-width: 2;
+    margin:-1;
+}
+
+#title {
+    background-color: rgba(64, 64, 64, 1);
+}
+
+#contents {
+    background-color: rgba(64, 64, 64, 1);
+}
+
+.node_data {
+    background-color: rgba(64, 64, 64, 1);
+    border-width: 5;
+}
+
+.running #node-border {
+    border-left-color: rgb(0, 255, 74);
+    border-right-color: rgb(0, 255, 74);
+    border-top-color: rgb(0, 255, 74);
+    border-bottom-color: rgb(0, 255, 74);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+}
+

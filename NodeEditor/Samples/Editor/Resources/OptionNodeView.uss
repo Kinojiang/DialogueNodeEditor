@@ -1,0 +1,11 @@
+#title {
+    background-color: rgba(6, 133, 183, 1);
+}
+
+#mainFoldout{
+    background-color: rgba(64, 64, 64, 1);
+}
+
+#unity-content {
+    margin-left:0;
+}

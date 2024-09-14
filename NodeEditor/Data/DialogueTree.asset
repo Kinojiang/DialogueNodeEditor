@@ -1,0 +1,409 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6753305157469485690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 487309d561a022d4e9088bc2319f39c2, type: 3}
+  m_Name: OptionNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  tree: {fileID: 11400000}
+  current: {fileID: -6753305157469485690}
+  guid: 1c21fab0-a642-4f60-bb49-8e90827131f4
+  Ports:
+  - rid: 4771456372163739650
+  - rid: 4771456372163739651
+  editor_ActiveNode: 0
+  position: {x: 1223.2, y: 348.8}
+  content: "\u5927\u5BB6\u89C1\u8C05"
+  configure: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4771456372163739650
+      type: {class: CustomPort, ns: CustomNodeTree.Core, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 28e0fcc9-ee22-4734-9e6f-69daa843000d
+        Connections:
+        - node_guid: 05b7e900-e0c1-4f9c-81ce-09a23c684c73
+          port_guid: d03229a5-38ec-4838-aed2-4149206236d5
+    - rid: 4771456372163739651
+      type: {class: CustomPort, ns: CustomNodeTree.Core, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 75fe7050-2ecb-46bb-9e95-5f233df709ec
+        Connections:
+        - node_guid: 58439311-c2dd-49a4-8c55-d0bfaeb2ada6
+          port_guid: 5ad3ba72-6bbb-4046-892a-47fe6de174f3
+--- !u!114 &-6253725629358884827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb143d5d5c15d004f8978fb26f4d93ff, type: 3}
+  m_Name: NormalDialogue
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  tree: {fileID: 11400000}
+  current: {fileID: -6253725629358884827}
+  guid: 06e6a2cb-5c56-46f2-841a-181930635aba
+  Ports:
+  - rid: 4771456330428317699
+  - rid: 4771456330428317700
+  editor_ActiveNode: 0
+  position: {x: 426.83652, y: 30.399998}
+  speakerName: "\u6D4B\u8BD5\u54581"
+  speakerAvatar: {fileID: 21300000, guid: 9c05ac87200eb3140afe89257b2c5f24, type: 3}
+  content: "\u8FD9\u91CC\u662F\u5BF9\u8FD9\u4E2A\u5BF9\u8BDD\u8282\u70B9\u7684\u6D4B\u8BD5"
+  configure: {fileID: 0}
+  sound: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4771456330428317699
+      type: {class: CustomPort, ns: CustomNodeTree.Core, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 84821f76-f887-475a-b210-8ba9402e1220
+        Connections:
+        - node_guid: 22de6c28-04a6-4400-8828-61d0ce1ec8cb
+          port_guid: 2500982e-b497-4b29-ab69-e60c402b2bab
+    - rid: 4771456330428317700
+      type: {class: CustomPort, ns: CustomNodeTree.Core, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 4cab814f-f4ae-4365-85be-8cc01d00154f
+        Connections:
+        - node_guid: 05b7e900-e0c1-4f9c-81ce-09a23c684c73
+          port_guid: cbcc44f2-b41c-4778-b43f-67f1ba0723fa
+--- !u!114 &-5697639845281955072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 487309d561a022d4e9088bc2319f39c2, type: 3}
+  m_Name: OptionNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  tree: {fileID: 11400000}
+  current: {fileID: -5697639845281955072}
+  guid: d2836dd8-9a44-4667-9eca-dc8c611fc1eb
+  Ports:
+  - rid: 4771456330428317708
+  - rid: 4771456330428317709
+  editor_ActiveNode: 0
+  position: {x: 1222.4, y: 184.2}
+  content: "\u6587\u6863\u4E0D\u5168\u3002"
+  configure: {fileID: 11400000, guid: 5939c9c45f11e0a41acfb716ccf57dea, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4771456330428317708
+      type: {class: CustomPort, ns: CustomNodeTree.Core, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 5ef17355-c544-469b-83b6-db30ba9e0884
+        Connections:
+        - node_guid: 05b7e900-e0c1-4f9c-81ce-09a23c684c73
+          port_guid: d03229a5-38ec-4838-aed2-4149206236d5
+    - rid: 4771456330428317709
+      type: {class: CustomPort, ns: CustomNodeTree.Core, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 343bc427-5dae-4907-8a47-5a0e76828aeb
+        Connections:
+        - node_guid: 58439311-c2dd-49a4-8c55-d0bfaeb2ada6
+          port_guid: 5ad3ba72-6bbb-4046-892a-47fe6de174f3
+--- !u!114 &-3649484627317258222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb143d5d5c15d004f8978fb26f4d93ff, type: 3}
+  m_Name: NormalDialogue
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  tree: {fileID: 11400000}
+  current: {fileID: -3649484627317258222}
+  guid: 58439311-c2dd-49a4-8c55-d0bfaeb2ada6
+  Ports:
+  - rid: 4771456330428317704
+  - rid: 4771456330428317705
+  editor_ActiveNode: 0
+  position: {x: 1565, y: 9.600006}
+  speakerName: "\u6D4B\u8BD5\u5458"
+  speakerAvatar: {fileID: 21300000, guid: 34de8a61d1297f84094ca1339ef69086, type: 3}
+  content: "\u611F\u8C22\u652F\u6301"
+  configure: {fileID: 0}
+  sound: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4771456330428317704
+      type: {class: CustomPort, ns: CustomNodeTree.Core, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 5ad3ba72-6bbb-4046-892a-47fe6de174f3
+        Connections:
+        - node_guid: 9eff69fd-191a-4c10-a828-ce4d0b465259
+          port_guid: 2857b5dd-4c83-4ef1-a25c-2a19f2dca980
+        - node_guid: 44d8e2ee-cfce-487b-9122-1129d3bd8606
+          port_guid: dda505a3-d78c-4c72-9229-3b6eda223df5
+        - node_guid: d2836dd8-9a44-4667-9eca-dc8c611fc1eb
+          port_guid: 343bc427-5dae-4907-8a47-5a0e76828aeb
+        - node_guid: 1c21fab0-a642-4f60-bb49-8e90827131f4
+          port_guid: 75fe7050-2ecb-46bb-9e95-5f233df709ec
+    - rid: 4771456330428317705
+      type: {class: CustomPort, ns: CustomNodeTree.Core, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: f1c026ea-4928-4510-a9d2-979fe32246a1
+        Connections: []
+--- !u!114 &-2304830150529781546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81511a9d93e1a5e44923473e914a7813, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  tree: {fileID: 11400000}
+  current: {fileID: -2304830150529781546}
+  guid: 22de6c28-04a6-4400-8828-61d0ce1ec8cb
+  Ports:
+  - rid: 4771456330428317697
+  editor_ActiveNode: 0
+  position: {x: 270, y: 30}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4771456330428317697
+      type: {class: CustomPort, ns: CustomNodeTree.Core, asm: Assembly-CSharp}
+      data:
+        Name: Next
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 2500982e-b497-4b29-ab69-e60c402b2bab
+        Connections:
+        - node_guid: 06e6a2cb-5c56-46f2-841a-181930635aba
+          port_guid: 84821f76-f887-475a-b210-8ba9402e1220
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b67a480365ad1141b12361cf8339d91, type: 3}
+  m_Name: DialogueTree
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: -2304830150529781546}
+  runningNode: {fileID: -3649484627317258222}
+  treeState: 0
+  nodes:
+  - {fileID: -2304830150529781546}
+  - {fileID: 1503255993480667865}
+  - {fileID: -6253725629358884827}
+  - {fileID: 5639652049639275304}
+  - {fileID: -3649484627317258222}
+  - {fileID: 2023157677328515386}
+  - {fileID: -5697639845281955072}
+  - {fileID: -6753305157469485690}
+  Groups: []
+--- !u!114 &1503255993480667865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a1b537133aa62543a656b976f9c19da, type: 3}
+  m_Name: BranchDialogue
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  tree: {fileID: 11400000}
+  current: {fileID: 1503255993480667865}
+  guid: 05b7e900-e0c1-4f9c-81ce-09a23c684c73
+  Ports:
+  - rid: 4771456330428317698
+  - rid: 4771456330428317703
+  editor_ActiveNode: 0
+  position: {x: 739.85, y: -1.2600403}
+  speakerName: "\u6D4B\u8BD5\u54582"
+  speakerAvatar: {fileID: 0}
+  content: "\u4F60\u53EF\u4EE5\u6839\u636E\u9700\u6C42\u91CD\u5199\u5BF9\u8BDD\u8282\u70B9"
+  configure: {fileID: 0}
+  sound: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4771456330428317698
+      type: {class: BranchDialoguePort, ns: , asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: cbcc44f2-b41c-4778-b43f-67f1ba0723fa
+        Connections:
+        - node_guid: 06e6a2cb-5c56-46f2-841a-181930635aba
+          port_guid: 4cab814f-f4ae-4365-85be-8cc01d00154f
+    - rid: 4771456330428317703
+      type: {class: BranchDialoguePort, ns: , asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 1
+        guid: d03229a5-38ec-4838-aed2-4149206236d5
+        Connections:
+        - node_guid: 9eff69fd-191a-4c10-a828-ce4d0b465259
+          port_guid: fdc628b7-31d1-4159-8b0f-8faf424264ee
+        - node_guid: 44d8e2ee-cfce-487b-9122-1129d3bd8606
+          port_guid: ef958eab-aa70-4d8b-ae81-255007440aec
+        - node_guid: d2836dd8-9a44-4667-9eca-dc8c611fc1eb
+          port_guid: 5ef17355-c544-469b-83b6-db30ba9e0884
+        - node_guid: 1c21fab0-a642-4f60-bb49-8e90827131f4
+          port_guid: 28e0fcc9-ee22-4734-9e6f-69daa843000d
+--- !u!114 &2023157677328515386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 487309d561a022d4e9088bc2319f39c2, type: 3}
+  m_Name: OptionNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  tree: {fileID: 11400000}
+  current: {fileID: 2023157677328515386}
+  guid: 44d8e2ee-cfce-487b-9122-1129d3bd8606
+  Ports:
+  - rid: 4771456330428317706
+  - rid: 4771456330428317707
+  editor_ActiveNode: 0
+  position: {x: 1222.4, y: 22.199997}
+  content: "\u53EF\u81EA\u884C\u53BB\u67E5\u9605\u4EE3\u7801"
+  configure: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4771456330428317706
+      type: {class: CustomPort, ns: CustomNodeTree.Core, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: ef958eab-aa70-4d8b-ae81-255007440aec
+        Connections:
+        - node_guid: 05b7e900-e0c1-4f9c-81ce-09a23c684c73
+          port_guid: d03229a5-38ec-4838-aed2-4149206236d5
+    - rid: 4771456330428317707
+      type: {class: CustomPort, ns: CustomNodeTree.Core, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: dda505a3-d78c-4c72-9229-3b6eda223df5
+        Connections:
+        - node_guid: 58439311-c2dd-49a4-8c55-d0bfaeb2ada6
+          port_guid: 5ad3ba72-6bbb-4046-892a-47fe6de174f3
+--- !u!114 &5639652049639275304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 487309d561a022d4e9088bc2319f39c2, type: 3}
+  m_Name: OptionNode
+  m_EditorClassIdentifier: 
+  state: 1
+  started: 0
+  tree: {fileID: 11400000}
+  current: {fileID: 5639652049639275304}
+  guid: 9eff69fd-191a-4c10-a828-ce4d0b465259
+  Ports:
+  - rid: 4771456330428317701
+  - rid: 4771456330428317702
+  editor_ActiveNode: 0
+  position: {x: 1222.9425, y: -151.03934}
+  content: "\u6709\u6587\u6863\u53EF\u67E5\u3002"
+  configure: {fileID: 11400000, guid: 5939c9c45f11e0a41acfb716ccf57dea, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4771456330428317701
+      type: {class: CustomPort, ns: CustomNodeTree.Core, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: fdc628b7-31d1-4159-8b0f-8faf424264ee
+        Connections:
+        - node_guid: 05b7e900-e0c1-4f9c-81ce-09a23c684c73
+          port_guid: d03229a5-38ec-4838-aed2-4149206236d5
+    - rid: 4771456330428317702
+      type: {class: CustomPort, ns: CustomNodeTree.Core, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 2857b5dd-4c83-4ef1-a25c-2a19f2dca980
+        Connections:
+        - node_guid: 58439311-c2dd-49a4-8c55-d0bfaeb2ada6
+          port_guid: 5ad3ba72-6bbb-4046-892a-47fe6de174f3
