@@ -1,0 +1,2 @@
+# DialogueNodeEditor
+基于GraphView制作的可视化对话节点编辑器
